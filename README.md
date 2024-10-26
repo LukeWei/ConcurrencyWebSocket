@@ -16,6 +16,8 @@ dependencies: [
 ## Usage
 
 ```swift
+let socket = URLSession(configuration: .default).webSocketTask(with: URL(string: "wss://...")!)
+
 for try await message in socket.stream() {
     switch msssage {
     case .string(let message):
