@@ -12,6 +12,9 @@ dependencies: [
     .package(url: "https://github.com/LukeWei/ConcurrencyWebSocket.git", .upToNextMajor(from: "1.0.0"))
 ]
 ```
+### Manually
+
+直接複製 extension 到專案也行
 
 ## Usage
 
